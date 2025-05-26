@@ -136,7 +136,7 @@ Available MODE options:
 
 ### Run the script 
 ```python
-python test.py
+python tests.py
 ```
 
 ---
