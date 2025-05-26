@@ -73,14 +73,14 @@ python -m spacy download en_core_web_trf
 
 ### Ollama (Local LLM Runtime)
 
-This project uses [**Ollama**](https://ollama.com/) to run the **Llama 3.2** model locally — without any reliance on cloud APIs.
+This project uses [**Ollama**](https://ollama.com/) to run the **Llama 3.2** model locally - without any reliance on cloud APIs.
 
 > **Ollama** is a lightweight runtime that allows you to run and interact with open-source LLMs such as LLaMA, Mistral, and Gemma directly on your machine. It simplifies model loading, serving, and integration with local applications.
 
-#### 🚀 Installation
+#### Installation
 
 1. Visit the official download page:  
-   👉 [https://ollama.com/download](https://ollama.com/download)
+    [https://ollama.com/download](https://ollama.com/download)
 
 2. Download and install the appropriate version for your OS (macOS, Windows, or Linux).
 
@@ -114,7 +114,7 @@ Example queries:
 
 The `tests.py` script allows automated testing of the assistant by generating random queries across multiple categories and saving the responses to a CSV file. This is useful for evaluating the accuracy and behavior of the system across different types of prompts.
 
-### 🔧 Configuration
+### Configuration
 
 Before running the script, set the following in `tests.py`:
 
